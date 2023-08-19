@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    max-width: 794px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 48px;
+}
+
+/* That is image section */
+#image{
+    float: right;
+}
+
+#image .profile-image{
+    max-height: 180px;
+    max-width: 100px;
+    border-radius: 10px;
+    border: 2px solid rgb(190, 190, 190);
+}
+
+/* This Contack Information Section */
+#bio{
+    float: left;
+}
+
+#bio .name{
+    font-size: 26px;
+}
+
+#bio .dis{
+    font-size: 18px;
+}
+
+#bio .email a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#bio .contack a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#bio .contack a:hover{
+    color: blue;
+}
+
+#bio .email a:hover{
+    color: blue;
+}
+
+
+/* ........ */
+.div-clear{
+    clear: both;
+}
+
+/* That is carrer objective summery */
+#career .career-object{
+    font-size: 20px;
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+#career .career-summery{
+    font-size: 16px;
+    text-indent: 50px;
+    padding-top: 10px;
+}
+
+/* That is experience Sector */
+#experience .exp{
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+#experience .exp-summery{
+    padding-top: 20px;
+}
+
+#experience .exp-summery .disignation .operator{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#experience .exp-summery .depertment .deper{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#experience .exp-summery .discription{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#experience .exp-summery ul{
+    padding-left: 40px;
+    margin-top: 05px;
+    margin-bottom: 20px;
+}
+
+/* That is ICT QUALIFICATION section */
+#ict-qualification .qualification .qualify{
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+#ict-qualification .ict{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#ict-qualification .ict .lan, .soft, .system, .ms, .internet{
+    font-size: 18px;
+    width: 50%;
+    float: left;
+}
+
+#ict-qualification .ict .dis1, .dis2, .dis3, .dis4, .dis5{
+    font-size: 18px;
+    width: 50%;
+    float: left;
+}
+
+/* That is short-courses section */
+#short-courses .courses .course{
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#short-courses .short .crs, .module, .duration, .institute, .ngo{
+    font-size: 18px;
+    width: 50%;
+    float: left;
+}
+
+#short-courses .short .discrp1, .discrp2, .discrp3, .discrp4, .discrp5{
+    font-size: 18px;
+    width: 50%;
+    float: left;
+}
+
+/* That is extra curricular activities */
+#curricular-activities .curricular .extra{
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+#curricular-activities .activities .active{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* That is education qualification section */
+#education-qualification .qualification .education{
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#education-qualification .quilifing .bba{
+    font-size: 18px;
+}
+
+#education-qualification .quilifing .result, .year, .versity{
+    float: left;
+    width: 50%;
+}
+
+/* That is personal Information section */
+#personal-information .heading-section{
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#personal-information .personal .name, .father, .mother, .dob, .marital, .religion, .present{
+    width: 50%;
+    float: left;
+}
+
+/* that is reference section */
+#reference .heading-section{
+    background-color: rgb(44, 118, 255);
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#reference .name-sign{
+    text-decoration: overline;
+    font-size: 16px;
+    margin-top: 180px;
+}
+
+/* Footer section */
+#foot{
+    background-color: rgb(44, 118, 255);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+}
